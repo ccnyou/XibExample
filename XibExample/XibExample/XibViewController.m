@@ -10,6 +10,8 @@
 
 @interface XibViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
 @end
 
 @implementation XibViewController
@@ -22,6 +24,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)awakeFromNib {
+    NSLog(@"%s %d hehe", __FUNCTION__, __LINE__);
 }
 
 /*
