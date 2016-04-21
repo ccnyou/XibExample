@@ -13,6 +13,8 @@
 		B2A4E7ED1CC9167400CAE679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A4E7EB1CC9167400CAE679 /* Main.storyboard */; };
 		B2A4E7EF1CC9167400CAE679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A4E7EE1CC9167400CAE679 /* Assets.xcassets */; };
 		B2A4E7F21CC9167400CAE679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A4E7F01CC9167400CAE679 /* LaunchScreen.storyboard */; };
+		B2A4E7FC1CC9172E00CAE679 /* XibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A4E7FA1CC9172E00CAE679 /* XibViewController.m */; };
+		B2A4E7FD1CC9172E00CAE679 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2A4E7FB1CC9172E00CAE679 /* XibViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		B2A4E7EE1CC9167400CAE679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2A4E7F11CC9167400CAE679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2A4E7F31CC9167400CAE679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A4E7F91CC9172E00CAE679 /* XibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibViewController.h; sourceTree = "<group>"; };
+		B2A4E7FA1CC9172E00CAE679 /* XibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibViewController.m; sourceTree = "<group>"; };
+		B2A4E7FB1CC9172E00CAE679 /* XibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				B2A4E7F01CC9167400CAE679 /* LaunchScreen.storyboard */,
 				B2A4E7F31CC9167400CAE679 /* Info.plist */,
 				B2A4E7E21CC9167400CAE679 /* Supporting Files */,
+				B2A4E7F91CC9172E00CAE679 /* XibViewController.h */,
+				B2A4E7FA1CC9172E00CAE679 /* XibViewController.m */,
+				B2A4E7FB1CC9172E00CAE679 /* XibViewController.xib */,
 			);
 			path = XibExample;
 			sourceTree = "<group>";
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A4E7FD1CC9172E00CAE679 /* XibViewController.xib in Resources */,
 				B2A4E7F21CC9167400CAE679 /* LaunchScreen.storyboard in Resources */,
 				B2A4E7EF1CC9167400CAE679 /* Assets.xcassets in Resources */,
 				B2A4E7ED1CC9167400CAE679 /* Main.storyboard in Resources */,
@@ -149,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A4E7FC1CC9172E00CAE679 /* XibViewController.m in Sources */,
 				B2A4E7EA1CC9167400CAE679 /* ViewController.m in Sources */,
 				B2A4E7E71CC9167400CAE679 /* AppDelegate.m in Sources */,
 				B2A4E7E41CC9167400CAE679 /* main.m in Sources */,
