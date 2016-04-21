@@ -1,0 +1,15 @@
+<viewController>
+	<connections>
+		<outlet property="view" destination="view-id-1" id="connection-id-1" />
+	</connections>
+	<view id="view-id-1">
+		<rect key="frame" x="0.0" y="0.0" width="320" height="460" />
+		<subviews>
+			<label id="label-id-1" text="I am a label~">
+				<rect key="frame" x="0.0" y="0.0" width="40" height="20" />
+				<color key="textColor" hex="#535353" />
+			</label>
+		</subviews>
+		<color key="backgroundColor" hex="#ffffff" />
+	</view>
+</viewController>
