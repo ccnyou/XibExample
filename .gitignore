@@ -1,2 +1,8 @@
 *.xcuserstate
 product/
+*.sdf
+*.ilk
+*.pdb
+*.ipch
+*.opensdf
+*.suo
