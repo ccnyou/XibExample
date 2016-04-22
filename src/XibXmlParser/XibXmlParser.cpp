@@ -1,4 +1,4 @@
-// XibXmlParser.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+// XibXmlParser.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 
 #include "stdafx.h"
@@ -19,14 +19,11 @@ class Object
 public:
 	Object();
 	virtual ~Object();
-
-private:
-	string m_
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char* argv[])
 {
-	file<char> xml_file("res/example_xib.xml");
+	file<char> xml_file("../../document/example_xib.xml");
 	xml_document<char> doc;
 	doc.parse<0>(xml_file.data());
 	auto root = doc.first_node();

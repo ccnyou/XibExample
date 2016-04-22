@@ -1,15 +1,11 @@
-// stdafx.h : 标准系统包含文件的包含文件，
-// 或是经常使用但不常更改的
-// 特定于项目的包含文件
+
+// stdafx.h : 鏍囧噯绯荤粺鍖呭惈鏂囦欢鐨勫寘鍚枃浠讹紝
+// 鎴栨槸缁忓父浣跨敤浣嗕笉甯告洿鏀圭殑
+// 鐗瑰畾浜庨」鐩殑鍖呭惈鏂囦欢
 //
 
 #pragma once
 
 #include "targetver.h"
 
-#include <stdio.h>
-#include <tchar.h>
-
-
-
-// TODO:  在此处引用程序需要的其他头文件
+#include <cstdio>
