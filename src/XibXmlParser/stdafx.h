@@ -6,6 +6,11 @@
 
 #pragma once
 
+#ifdef WIN32
+#define TARGET_OS_WINDOWS
+#endif // WIN32
+
+
 #include "targetver.h"
 
 #include <cstdio>

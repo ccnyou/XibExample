@@ -11,14 +11,27 @@
 using namespace rapidxml;
 using namespace std;
 
-#define DECL_XML_CLASS_BEGIN(className) 
+#define DECL_XML_CLASS_BEGIN(className) \
+	public:								\
+	bool initWithXml(const char *xml);	\
+
 #define DECL_XML_CLASS_END(className) 
 
 class Object 
 {
 public:
-	Object();
-	virtual ~Object();
+	Object() {}
+	virtual ~Object() {}
+};
+
+class Rect
+{
+public:
+	Rect() {}
+	virtual ~Rect() {}
+
+private:
+
 };
 
 int main(int argc, char* argv[])
