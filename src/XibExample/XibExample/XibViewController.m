@@ -16,6 +16,22 @@
 
 @implementation XibViewController
 
+- (instancetype)init {
+    self = [super init];
+    return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    NSLog(@"%s %d decoder = %@", __FUNCTION__, __LINE__, aDecoder);
+    self = [super initWithCoder:aDecoder];
+    return self;
+}
+
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.

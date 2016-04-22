@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XibViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    XibViewController* controller = [[XibViewController alloc] init];
+//    [self addChildViewController:controller];
+//    [self.view addSubview:controller.view];
+    NSArray* nib = [[NSBundle mainBundle] loadNibNamed:@"XibViewController" owner:self options:nil];
+    UIViewController* controller = [nib firstObject];
+    [self addChildViewController:controller];
+    [self.view addSubview:controller.view];
+
 }
 
 - (void)didReceiveMemoryWarning {

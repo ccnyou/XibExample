@@ -76,7 +76,8 @@
 				B2A4E7FA1CC9172E00CAE679 /* XibViewController.m */,
 				B2A4E7FB1CC9172E00CAE679 /* XibViewController.xib */,
 			);
-			path = XibExample;
+			name = XibExample;
+			path = ../src/XibExample/XibExample;
 			sourceTree = "<group>";
 		};
 		B2A4E7E21CC9167400CAE679 /* Supporting Files */ = {
@@ -275,7 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XibExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../src/XibExample/XibExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ccnyou.XibExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,7 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XibExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../src/XibExample/XibExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ccnyou.XibExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +313,7 @@
 				B2A4E7F81CC9167400CAE679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
